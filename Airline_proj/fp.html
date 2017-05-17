@@ -1,0 +1,182 @@
+<!DOCTYPE html>  
+<html> 
+<title></title>  
+<head>
+<style>
+.div2{
+
+  background-image:url(back2.jpg);
+  background-size: 100% auto;
+  background-position:center center;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  border-radius: 7px;
+  width:100%;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 10px 10px 5px 10px;
+}
+
+.div1{
+  box-shadow:0px 0px 10px #476b6b;
+  height:40%;
+  width:100%;
+  border-radius: 2px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 5px 5px 5px 5px;
+}
+
+#heading{
+    color:#808080;
+    padding:5px;
+    font-size:60px;
+    background-color:
+    font-family: "My Custom Font";
+    font-style: italic;
+    font-weight:100;
+    text-shadow:3px 0px 20px #808080;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align:center;
+    margin-right:auto; 
+    } 
+    
+* {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .5s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+  -moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background: linear-gradient( 180deg, #1b1b2b , #1b1b2b  , #2d2d86 , #1b1b2b , #1b1b2b);
+  padding:50px;
+
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#808080;
+  font-weight:100;
+}
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:5px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
+
+
+hr{
+  margin: 20px 20px;
+  border-top:2px solid rgb(64,0,0) ;
+  border-bottom:2px solid rgb(64,0,00);
+  border-radius: 10px;
+  
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(sansation_light.woff);
+}
+
+</style> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>  
+
+<body>
+<div class="div1">
+  
+  <h1 id="heading">
+QATAR AIRWAYS
+  </h1>
+</div>
+  <hr />
+<br>
+ <div class = "div2">
+
+<br>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+
+    <a href="ab.html" class="btn">About</a>
+    <a href="airplane.html" class="btn">Airplanes</a>
+    <a href="anuj.html" class="btn">Plane type</a>
+    <a href="emp.php" class="btn">Employees</a>
+    <a href="res.html" class="btn">Reservations</a>
+    <a href="flight.html" class="btn">Flights</a>
+    <a href="flileg.php" class="btn">Flight legs</a>
+    <a href="fare.php" class="btn">Price of tickets</a>
+    
+
+<br>
+<br>
+  
+<script>
+var na = document.getElementById("name");
+var email = document.getElementById("email");
+var mesg = document.getElementById("message");
+
+
+na.setAttribute("placeholder"," Name")
+email.setAttribute("placeholder"," Email Id")
+mesg.setAttribute("placeholder","Message")
+//background: -webkit-linear-gradient(360deg,#FFFF00,#FFCC00,#FF9900,#FF6600,#FF3300,#FF0000);  
+
+
+var subbtn = document.getElementById("contact_form");
+subbtn.onsubmit=subinf;
+function subinf(){
+var a = confirm("Would you like to submit ?");
+return a;
+}
+function backg(x)
+{
+  x.style.backgroundColor="#ccccff";
+  x.style.fontStyle="italic";
+  x.style.color="#3d3d29";
+}
+function backl(x)
+{
+  x.style.backgroundColor="white";
+  x.style.color="black";
+  x.style.fontStyle="normal"  
+}
+ 
+ 
+ </script>
+  <br>
+
+  <a href="http://www.qatarairways.com/in/en/homepage.page" target="_blank" class="footer">@QatarAirways</a>  
+ <footer style="font-size:16px; color:black "> All Site Content &#169 Copyright 2016 A.A.A</footer>
+ </div>
+</body>  
+</html> 
